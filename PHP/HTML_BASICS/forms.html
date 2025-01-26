@@ -1,0 +1,37 @@
+<p><a href="../HTML_BASICS/CONTENTS.html">CONTENTS</a></p>
+<form action="" method="">
+  <!-- The ACTION attribute accepts filename to which form data will be submitted. Leave it empty unless required -->
+  <!-- The METHOD attribute accepts HTTP methods - GET, POST, etc. -->
+  <label for="username">Name: </label>
+  <input
+    type="text"
+    placeholder="Enter your name"
+    name="username"
+    id="username"
+    autocomplete="off"
+    required
+  />
+  <!-- Value Attribute sets default value in field -->
+  <br />
+  <br />
+  <label for="password">Password: </label>
+  <input
+    type="password"
+    name="password"
+    id="password"
+    placeholder="Enter password"
+    required
+    autocomplete="off"
+  />
+  <br />
+  <p>Languages known -</p>
+  <input type="checkbox" name="English" id="English" />
+  <label for="English">English</label>
+  <input type="checkbox" name="Hindi" id="Hindi" />
+  <label for="Hindi">Hindi</label>
+  <input type="checkbox" name="Bangla" id="Bangla" />
+  <label for="Bangla">Bangla</label>
+  <br />
+  <input type="submit" name="submit" />
+  <!-- Basic form submit button -->
+</form>
